@@ -65,11 +65,11 @@ icon: globe
 | **Zhipu（智谱）** | API | 搜索 | 智谱 GLM Web Search，联网搜索与实时信息 |
 | **Querit** | API | 搜索 | 面向 AI 应用的网页检索服务 |
 | **SearXNG** | API | 搜索 | 可自托管的免费元搜索引擎 |
-| **Firecrawl** | API | 搜索 | 网页抓取与搜索，可将结果转 Markdown |
+| [**Firecrawl**](firecrawl.md) | API | 搜索 · URL 获取 | 网页抓取与搜索，可将结果转 Markdown；免密钥可用 |
 | **Jina** | API | 搜索 · URL 获取 | Jina Reader；也是 **默认的 URL 获取服务商** |
 | **Fetch** | API | URL 获取 | 内置 URL 获取，从指定网址抓正文 |
 
-> 除默认的 **Exa MCP**（免密钥）外，多数 API 服务商需填各自的 API 密钥；**SearXNG** 填自部署地址，**Fetch** 为内置、无需配置。
+> 默认的 **Exa MCP** 免密钥即用；**Firecrawl**（搜索与 URL 获取）和 **Jina** 的 URL 获取也无需密钥即可使用。其余 API 服务商需填各自的 API 密钥；**SearXNG** 填自部署地址，**Fetch** 为内置、无需配置。
 
 ### 高级设置
 
@@ -85,6 +85,7 @@ icon: globe
 
 * [免费联网模式](free-search.md) —— 不花钱也能用上搜索能力
 * [Tavily 联网登录注册教程](tavily.md) —— 换用 Tavily 时，如何注册并获取密钥
+* [Firecrawl 联网配置](firecrawl.md) —— 免密钥使用 Firecrawl 搜索与 URL 获取，以及填写密钥、自托管
 * [SearXNG 本地部署与配置](searxng.md) —— 自托管、完全本地化
 * [网络搜索黑名单配置](blacklist.md) —— 屏蔽不想要的网站
 

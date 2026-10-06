@@ -72,6 +72,7 @@
     * [网络搜索黑名单配置](pre-basic/websearch/blacklist.md)
     * [火山引擎接入联网](pre-basic/websearch/volcengine.md)
     * [Tavily 联网登录注册教程](pre-basic/websearch/tavily.md)
+    * [Firecrawl 联网配置](pre-basic/websearch/firecrawl.md)
     * [SearXNG 本地部署与配置](pre-basic/websearch/searxng.md)
   * [文档处理](pre-basic/settings/doc-process.md)
   * [OCR](pre-basic/settings/ocr.md)
